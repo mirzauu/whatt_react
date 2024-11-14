@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  color: white;
+  cursor: none;
+}
+
+.rdp {
+  --rdp-cell-size: 40px;
+  --rdp-accent-color: #9333ea;
+  --rdp-background-color: #4b5563;
+  margin: 0;
+}
+
+.rdp-button:hover:not([disabled]):not(.rdp-day_selected) {
+  background-color: #374151;
+}
+
+a, button {
+  cursor: none;
+}
